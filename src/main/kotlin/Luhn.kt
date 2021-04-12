@@ -16,7 +16,7 @@ object Luhn {
             return false
         }
 
-        val sum= noSpaces
+        val sum = noSpaces
             .reversed()
             .map { it.toString().toInt() }
             .mapIndexed { index, num ->
